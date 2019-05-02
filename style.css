@@ -620,7 +620,7 @@ hr{
 		padding: 5px;	
 	}
 
-	#experence h1, #education h1, #skill h1, #intrest h1{
+	/*#experence h1, #education h1, #skill h1, #intrest h1{
 		font-size: 30px;
 		font-weight: bold;
 	}
@@ -635,7 +635,7 @@ hr{
 	}
 	#experence p, #education p, #skill p, #intrest p{
 		font-size: 16px;
-		font-weight: bold;
+		font-weight: bold;*/
 	}
 	#experence , #education , #skill , #intrest ,#about{
 		width: 80vw;
