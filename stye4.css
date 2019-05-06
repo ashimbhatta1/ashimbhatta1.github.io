@@ -1,0 +1,59 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+	background-color: #100a1c;
+
+}
+#main{
+	float: center;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	margin-top: 70px;
+	border:1px  ;
+	width: 225px;
+	padding: 11px;
+
+}
+.btn{
+	width: 50px;
+	height: 50px;
+	margin:3px;
+	font-size: 19px;
+	background-color: rgba(42,50,113, .28);
+	outline: none;
+	color: lightgreen;
+	text-shadow: 1px 01px black;
+	font-weight: bolder;
+
+
+}
+.btn:hover{
+	transform: rotate(01deg);
+	
+	transition: 0.9s;
+	color: rgba(42,50,113, .28);
+	opacity: .9;
+	border:1px solid grey;
+	background-color: lightgreen;
+	
+
+}
+#textview{
+	width: 220px;
+	height:50px;
+	outline: none;
+	text-align: right;
+	font-weight: bolder;
+	font-size: 19px;
+	color: white;
+	background-color: grey;
+	margin: 4px;
+	cursor: pointer;
+	padding-right: 2px;
+
+}
+#tabel{
+	background-color: grey;
+	width:225px;
+}

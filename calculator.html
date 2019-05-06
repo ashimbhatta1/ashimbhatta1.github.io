@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="stye4.css">
+</head>
+<body>
+	<div id="main">
+		<form id="form">
+				<input class="textview" id="textview"  autofocus>
+		</form>
+
+		<table>
+					<tr>
+						<td><input type="button" value="c" class="btn"  onclick="clean()"></td>
+
+						<td><input type="button" value="+" class="btn" onclick="operaters('+')"></td>
+
+						<td><input type="button" value="-" class="btn" onclick="operaters('-')"></td>
+
+						<td><input type="button" value="x" class="btn" onclick="cut('')"></td>
+
+
+				</tr>
+
+				<tr>
+						<td><input type="button" value="7" class="btn" onclick="input(7)"> </td>
+						<td><input type="button" value="8" class="btn" onclick="input(8)"></td>
+						<td><input type="button" value="9" class="btn" onclick="input(9)"></td>
+						<td><input type="button" value="/" class="btn" onclick="operaters('/')"></td>
+ 
+
+				</tr>
+
+
+				<tr>
+						<td><input type="button" value="4" class="btn" onclick="input(4)"></td>
+ 
+						<td><input type="button" value="5" class="btn" onclick="input(5)"></td>
+ 						<td><input type="button" value="6" class="btn" onclick="input(6)"></td>
+
+						<td><input type="button" value="*" class="btn" onclick="operaters('*')"></td>
+
+
+				</tr>
+
+				<tr>
+						<td><input type="button" value="1" class="btn" onclick="input(1)"></td>
+
+						<td><input type="button" value="2" class="btn" onclick="input(2)"></td>
+
+						<td><input type="button" value="3" class="btn" onclick="input(3)"></td>
+
+						<td rowspan="2"><input type="button" style="height: 108px;"autofocued value="=" class="btn"  onclick="equal('')"></td>
+
+
+				</tr>
+
+				<tr>
+						<td colspan="2"><input type="button" style="width: 108px;" value="0" class="btn" onclick="input(0)" ></td>
+
+						<td ><input type="button"  value="." class="btn"  onclick="input('.')"></td>
+				</tr>
+
+				
+		</table>
+
+			
+		<div id="circle"></div>
+	</div>
+	<script type="text/javascript" src="style4.js"></script>
+</body>
+</html>
