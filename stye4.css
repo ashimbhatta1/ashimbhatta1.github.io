@@ -11,19 +11,19 @@
 	justify-content: center;
 	margin-top: 70px;
 	border:1px  ;
-	width: 225px;
+	width: 525px;
 	padding: 11px;
 
 }
 .btn{
-	width: 50px;
-	height: 50px;
+	width: 10vw;
+	height: 10vw;
 	margin:3px;
-	font-size: 19px;
+	font-size: 23px;
 	background-color: rgba(42,50,113, .28);
 	outline: none;
 	color: lightgreen;
-	text-shadow: 1px 01px black;
+	text-shadow: 1px 1px white;
 	font-weight: bolder;
 
 
@@ -40,8 +40,8 @@
 
 }
 #textview{
-	width: 220px;
-	height:50px;
+	width: 43vw;
+	height:10vh;
 	outline: none;
 	text-align: right;
 	font-weight: bolder;
@@ -55,5 +55,5 @@
 }
 #tabel{
 	background-color: grey;
-	width:225px;
+	width:30vh;
 }
