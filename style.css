@@ -1,45 +1,137 @@
-.text_1 {
-  animation: text1;
+
+ 
+*{
+	background-color: darkslategray;
+	margin:0px;
+	padding:0px;
+
 }
-.text_2 {
-  animation: text2;
+fieldset{
+	width: 50%;
+	text-align: center;
+	margin: 0 auto;
+	background-color: white;
+	height: 390px;
+	margin-top: 5%;
+	border-radius: 30px;
+	padding:5%;
+	
 }
-.text_1, .text_2 {
-  overflow: hidden;
-  white-space: nowrap;
-  display: inline-block;
-  position: relative;
-  animation-duration: 9s;
-  animation-timing-function: steps(19, end);
-  animation-iteration-count: infinite;
+
+header{
+	color: darkslategray;
+	background-color: white;
+	margin-bottom: 20px;
 }
-.text_1::after, .text_2::after {
-  content: "|";
-  position: absolute;
-  right: 0;
-  animation: caret infinite;
-  animation-duration: 0s;
-  animation-timing-function: steps(1, end);
+header h4, span{
+	background-color: white;
+}
+
+header  span{
+	color: black;
+	text-shadow: 0.1px 0.1px black;
+
+}
+#differentWord{
+	font-family: 'Dokdo', cursive;
+	background-color: white;
+}
+#differentWord h1{
+	background-color: white;
+	color: darkslategray;
+
+}
+#textbox{
+	background-color: white;
+}
+#textbox input {
+	font-family: 'Dokdo', cursive;
+	width: 40%;
+	height: 30px;
+	margin-top:20px;
+	background-color: white;
+	padding: 5px 20px 5px 20px;
+	border:1px solid darkslategray;
+	border-radius: 20px;
+	color: teal;
+	font-size: 17px;
+
+
+}
+
+#textbox{
+	margin-bottom: 30px;
+
+
+}
+#textbox input:focus{
+	outline: none;
+	
+}
+#message , #message1{
+	background-color: white;
+	padding-top: 10px;
+	font-size: 13px;
+	color: darkslategray;
+	font-family: 'Dokdo', cursive;
+	display: ;
 }
 
 
-@keyframes text2 {
-  0%, 50%, 100% {
-    width: 0;
-  }
-  
-  60%, 90% {
-    width: 9.6em;
-  }
-}
-@keyframes text1 {
-  0%, 50%, 100% {
-    width: 0;
-  }
-  10%, 40% {
-    width: 9.5em;
-  }
+#time, #score{
+	font-family: 'Dokdo', cursive;
+	background-color: white;
+	font-weight: bold;
+	color: darkslategray;
+	font-size: 15px;
+	display: inline;
+	margin-left: 10px;
+	margin-bottom: 10px;
+
+
 }
 
+.btn{
+	background-color: lightblue;
+	border:none;
+	padding: 4px 15px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	border-radius: 20px;
+	color: white;
+	text-shadow: 1px 1px black;
+	outline: none;
+
+}
 
 
+.btn:hover{
+	color: black;
+	background-color: darkslategray;
+	text-shadow: white;
+}
+
+
+
+#note  {
+	background-color: white;
+}
+
+
+#note  h4{
+	font-family: 'Dokdo', cursive;
+	background-color: white;
+	color: darkslategray;
+	font-size: 16px;
+	padding-top: 30px;
+	margin-bottom: 10px;
+}
+
+#note p{
+	font-family: 'Fascinate Inline', cursive;
+	background-color: white;
+	color: teal;
+	font-size: 15px;
+	margin:5px 10px;
+
+}

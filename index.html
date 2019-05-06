@@ -1,204 +1,46 @@
-
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Ashim Bhatta</title>
-	<link rel="stylesheet" type="text/css" href="main.css">
-
+	<title> Typing game</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-
-	<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
-
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-	<link rel="shortcut icon" type="image/x-icon" href="img1.png">
-
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 </head>
 <body>
-	<div id="container">
+	<fieldset>
 
-		<div id="nav">
+		<header id="heading">
+				<h4> Type the give word within 
+					<span id="seconds" >5</span>seconds.</h4>
+		</header>
+		<div id="differentWord">
+				<H1 id="currentWord"> hello </H1>
+		</div>
+		<div id="textbox"  > 
 
-			<div id="logo">
-				<h1> Ash<span>im B</span><span>HAT</span><span>TA.</span></h1>
+				<input type="text" id="usertext" placeholder="Start typing..." autofocus>
+		<h4 class="mt-3" id="message"> game over!!!</h4>
+		<h4 class="mt-3" id="message1"> correct!!!</h4>
 
-
-				<div id="toggle" onclick="toggleOpen()">
-
-					<div class="line" id="line1"></div>
-					<div class="line" id="line2"></div>
-					<div class="line" id="line3"></div>
-
-				</div>
-			</div>
 		</div>
 
+		<div id="time">
 
-			<div id="sideMenu">
-				<ul id="menu-list">
-					<li><a href="#" onclick="hideMenu()">HOME</a></li>
-					<li><a href="#about" onclick="hideMenu()">ABOUT</a></li>
-					<li><a href="#project" onclick="hideMenu()">PROJECT</a></li>
-					<li><a href="#contact" onclick="hideMenu()">CONTACT</a></li>
-				</ul>
-			</div>
-	</div>
-		<div id="showCase">
-			<img src="img3.jpg" >
-			<h1>I'm</h1>
-				 <h1 class="text_1">WEB DEVELOPER .</h1>
-				<h1 class="text_2">WEB DESGINER .</h1>
-				<h2>Developer,Designer</h2>
-
-				<div id="icon">
-					<ul>
-						<li><a href=""> <i class="fab fa-facebook-f"></i></a></li>
-
-						<li><a href=""> <i class="fab fa-twitter"></i></a></li>
-
-						<li><a href="https://www.instagram.com/ashim_bhatta/" target="_blank"> <i class="fab fa-instagram"></i></a></li>
-
-						<li><a href=""> <i class="fab fa-google-plus-g"></i></a></li>
-
-						<li><a href="https://github.com/ashimbhatta1" target="_blank"> <i class="fab fa-github"></i></a></li>
-
-						<li><a href="https://www.linkedin.com/in/ashim-bhatta-76122b183/" target="_blank"> <i class="fab fa-linkedin-in"></i></a></li>
-
-					</ul>
-				</div>
-		</div>
-
-
-		<div id="about">
-			<div id="text"> 
-							<br><br><br>
-
-				<h1>ABOUT</h1>
-				<h3>
-					I am a frontend web-developer. Currently I had enrolled diploma of software engineer.I had enrolled many udemy course. <br><br>
-					Apart from being a web developer, I enjoy most of my time being outdoors. <br> <br>
-
-					I follow a number of sci-fi, comedy, drama and fantasy genre movies and television shows, I am an aspiring sketch artist, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.
-					</h3>
-			</div>
-
-				<img src="img2.png" id="myImage">
+				Time Left:<span id="timeValue"> 0 </span>
 			
-
-
 		</div>
-	
-	
-
-
-		<div id="project">
-			<h1>Project</h1>
-			<div id="main">
-
-				<div id="toDoList">
-					<h2>JavaScript To DO List</h2>
-					<div id="image">
-						<a href="toDoList/index.html" target="_blank"><img src="toDoList.png"></a>
-					</div>
-				</div>
-					
-
-
-				<div id="calculator">
-					<h2>JavaScript Calculator</h2>
-					<div id="image">
-						<a href="calculator/index.html" target="_blank"><img src="calculator.png"></a>
-					</div>
-				</div>
-				<br>
-				<div id="tipCalculator">
-					<h2>JavaScript TipCalculator</h2>
-					<div id="image">
-						<a href="Tipcalculator/index.html" target="_blank"><img src="TipCalculator.png"></a>
-					</div>
-					
-				</div>
-
-				<div id="typingGame">
-					<h2>JavaScript Typing Game</h2>
-					<div id="image">
-						<a href="typingGame/index.html" target="_blank"><img src="typingGame.png"></a>
-					</div>
-					
-				</div>
-			</div>
-
-		</div>
-	</div>
-
-	<div id="contact">
-		<h1>CONTACT ME</h1>
-		<div id="container">
-
-		
-			<div id="personalDetail">
-				<h1>GET IN TOUCH </h1> <br>
-				<h2>Baradi-Tanahun, Nepal </h2>
-				<h3>9823345038</h3>
-				<h2>Postal code : 33900</h2>
-				
-				
-			</div>				
-			<div id="message">
-			
-				<form action="mailto:ashim.bhatta000@gmail.com" 
-						 enctype="text/plain">
-						
-						<input type="text" name="Text" id="name" placeholder="YOUR NAME" required>
-					
-						
-						<input type="email" name="Email" id="email" placeholder="YOUR EMAIL" required>
-					<br>
-						<input type="text" name="subject" placeholder="SUBJECT" required>
-					<br> 
-					<input type="text" name="subject" placeholder="MESSAGE" maxlength="200" minlength="20">
-					<br>
-
-					<input type="reset" id="reset" >
-					<input type="submit" id="submit" 
-					onclick="clean()">
-
-				</form>
-			</div>
-		</div>
-
-	</div>
-	<div id="footer">
-				<ul>
-						<li><a href=""> <i class="fab fa-facebook-f"></i></a></li>
-
-						<li><a href=""> <i class="fab fa-twitter"></i></a></li>
-
-						<li><a href=""> <i class="fab fa-instagram"></i></a></li>
-
-						<li><a href=""> <i class="fab fa-google-plus-g"></i></a></li>
-
-						<li><a href=""> <i class="fab fa-github"></i></a></li>
-
-						<li><a href=""> <i class="fab fa-linkedin-in"></i></a></li>
-
-				</ul>
-				&#169;COPYRIGHTS. ALL RIGHTS  RESERVED.
-				
-		
-	</div>
-
-
-	
-
-
-
-
-
-	<script type="text/javascript" src="main.js"></script>
+		<div id="score"> Score:<span id="scoreValue">0 </span> </div>
+		<br>
+		<button id="button1" class="btn"> Easy</button>
+		<button id="button2" class="btn"> Medium</button>
+		<button id="button3" class="btn"> hard</button>
+		<hr>
+		<footer id="note">
+				<h4> Instrustion</h4>
+				<p>Type each word in the give amount of time to score a point. To play again, just type the current word. Your score wil be reset.</p>
+		</footer>
+	</fieldset>
 
 </body>
+	<script type="text/javascript" src="style.js"></script>
+
+
 </html>
-			
