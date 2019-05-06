@@ -1,0 +1,114 @@
+*{
+	padding:0;
+	margin:0;
+	background-color: #4a4a4a;
+	justify-content: center;
+	float: center;
+	text-align: center;
+	align-items: center;
+	outline: none;
+}
+
+h2{
+	
+	font-family: 'Lobster', cursive;
+	color: green;
+	background-color: #00b7b7;
+	width:150px;
+	margin:0 auto;
+
+	margin-top: 80px;
+	margin-bottom: 10px;
+}
+#main{
+	background-color:#92ff24;
+	width:400px;
+	margin:0 auto;
+	height: 220px;
+	border-radius: 3%
+}
+
+input{
+	background-color: white;
+	margin-top: 15px;
+	height: 20px;
+	text-align: left;
+	padding: 5px;
+
+
+}
+#calculate{
+	background-color: #00b7b7;
+	margin:10px 75px;
+	border:none;
+	width: 70px;
+	height: 022px;
+	color: white;
+	opacity: 0.8;
+	float: center;
+	padding: 2px 13px;
+
+
+	
+	
+}
+
+#calculate:hover{
+
+	background-color: white;
+	transition: 2.5s;
+	border:1px solid #00b7b7;
+	color: #00b7b7;
+	text-shadow: 1px 1px black
+
+}
+#score{
+	background-color: #92ff24;
+}
+#score h3, span{
+	background-color: #92ff24;
+	color: green;
+	text-shadow: 1px 1px white;
+
+
+}
+#score h3, span:hover{
+	color: darkgreen;
+}
+
+hr{
+	margin: 10px 50px;
+}
+
+label{
+	background-color: #92ff24;
+	color: white;
+	margin: 0px;
+	float: left;
+	margin: 20px 0px 0px 35px;
+	text-shadow: 1px 1px blue;
+	font-size: 18px;
+
+
+}
+
+#tipPercent{
+	float: left;
+	margin-left: 20px;
+	 opacity:0.7;
+
+}
+
+#tipPercent:hover{
+	opacity: 1;
+	background-color: red
+}
+
+#tipPercentValue{
+	float: left;
+	margin-top: 21px;
+	margin-left: 15px;
+	color: white;
+	text-shadow: 1px 1px blue;
+	font-size: 18px;
+}
