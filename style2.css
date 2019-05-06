@@ -1,0 +1,120 @@
+*{
+	margin:0 auto;
+	padding:0;
+	float: center;
+	background-color: skyblue;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+
+}
+
+#main{
+	float: center;
+	margin: 0 auto;
+	width:90%;
+	height: 80vh;
+
+}
+h1{
+	color: white;
+	font-weight: bolder;
+	font-size: 50px;
+	font-family: 'Indie Flower', cursive;
+
+	margin-top: 40px
+}
+#message{
+	color: yellow;
+	font-family: 'Indie Flower', cursive;
+	margin: 30px;
+
+}
+
+
+input[type="text"]{
+	width: 50%;
+	height:37px;
+	background-color: white;
+	border-radius: 6px;
+	border:none;
+	text-align: left;
+	padding-left: 10px;
+	font-weight: bolder;
+	font-size: 20px;
+	
+
+}
+input[type="button"]{
+	height:36px;
+	color: white;
+	border-radius: 6px;
+	outline: transparent;
+	width: 45px;
+	font-weight: bold;
+	font-size: 17px;
+	margin-top: 2px;
+	background-color: #02798F;
+
+	
+
+}
+input[type="button"]:hover{
+	color:#02798F;
+	background-color: white;
+	transition: 3s;
+	transform: rotate(360deg);
+	transition-property: transform;
+	transition-timing-function: 4s
+	
+
+}
+
+#showChase{
+	margin-top: 30px;
+	color: yellow;
+	text-decoration: none;
+}
+#showChase ul{
+	text-decoration: none;
+}
+#showChase li{
+	text-decoration: none;
+	width: 450px;
+	height: 20px;
+	border-radius: 6px;
+	background-color: #02798F;
+	text-align:left;
+	padding: 10px;
+	font-weight: bolder;
+	font-size: 19px;
+	margin-top: 5px;
+	list-style:none;
+	opacity: 0.8
+
+
+
+
+}
+
+#show button{
+	float: right;
+	font-size: 15px;
+	font-weight: bolder;
+	padding: 1px;
+	text-align: center;
+	width: 30px;
+	background-color:#02798F;
+	border: none;
+}
+
+
+#showChase li:hover{
+	transition: 1s;
+	border:1px solid #02798F;
+	opacity: 1;
+	height: 18px;
+
+	
+
+}
