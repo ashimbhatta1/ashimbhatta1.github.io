@@ -1,0 +1,920 @@
+@import url('https://fonts.googleapis.com/css?family=Modak');
+@import url('https://fonts.googleapis.com/css?family=Modak|Ubuntu');
+
+
+
+*{
+  margin:0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+body{
+  overflow-x: : hidden;
+}
+
+#nav{
+  background-color: black;
+  display: flex;
+  height: 100px;
+  position: fixed;
+  z-index: 2843343453445;
+   overflow-x: : hidden;
+   width: 100vw;
+
+ 
+  
+}
+
+#nav #logo{
+  margin-left: 20px;
+  position: relative;
+}
+
+#nav #logo h1{
+  font-size: 40px; 
+  font-family: 'Permanent Marker', cursive;
+  color: white;
+  background-color: black;
+  letter-spacing: 5px;
+  word-spacing: 10px;
+  padding: 10px;
+  width: 110vw;
+  font-weight: bolder;
+}
+
+#nav #logo h1 span:first-child{
+  font-size: 40px; 
+  font-family: 'Permanent Marker', cursive;
+  color: green;
+  opacity: 0.8;
+}
+
+#nav #logo h1 span:nth-child(2){
+  font-size: 40px; 
+  font-family: 'Permanent Marker', cursive;
+  color: #E65540;
+
+}
+
+#nav #logo h1 span:nth-child(3){
+  font-size: 40px; 
+  font-family: 'Permanent Marker', cursive;
+  color: blue;
+  opacity: 0.8;
+}
+
+#toggle{
+
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  overflow: hidden;
+  height: 100px;
+  padding: 5px;
+  z-index: 222222432;
+  opacity: 0.7
+
+}
+#toggle:hover{
+
+  
+  opacity: 1;
+  transition: 1s;
+
+}
+
+.line{
+  width: 30px;
+  height: 4px;
+  background-color: white;
+  margin: 4px;
+  border-radius: 5px;
+
+
+
+  
+
+
+
+}
+
+#sideMenu{
+  width: 0vw;
+  height: 95vh;
+  position: fixed;
+  right: 0vw;
+  text-align: center;
+  background-color: black;
+  box-shadow: 1px 1px lightgrey;
+  opacity:0;
+  transition:all  1s;
+  z-index: 232;
+   overflow-x: : hidden;
+   margin-top: 55px
+  
+  
+  
+
+}
+
+#sideMenu ul{
+ 
+  text-align: center;
+  right: 15vw;
+  width: 90%;
+  opacity: 1
+}
+
+#sideMenu ul li{
+  margin: 50px;
+  border-bottom:1px solid white;
+  width: 90%;
+  height: 40px;
+  padding: 5px;
+  margin-right: 20px;
+  text-align: center;
+ 
+  
+}
+
+#sideMenu ul a{
+  text-decoration: none;
+  color: green;
+  opacity: 1;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Ubuntu', sans-serif;
+
+
+
+}
+
+
+#sideMenu ul li:hover{
+  border-left:2px solid rgba(230, 85, 69,1);
+  border-top:1px solid rgba(230, 85, 69,0.5);
+  border-bottom:3px solid  rgba(230, 85, 69, 1);
+  border-radius: 15px;
+  color: white;
+
+}
+
+#sideMenu ul li:hover a{
+ 
+  color: white;
+
+}
+
+#showCase {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 10vw;
+}
+
+#showCase img{
+  height: 100vh;
+  width: 100%;
+  position: relative;
+
+}
+
+#showCase .text_1,#showCase .text_2{
+  position: absolute;
+  top: 30vh;
+  left: 18vh;
+  z-index: 222;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  text-shadow: 0px 25px rgba(0, 102, 0 ,0.2);
+  height: 60px;
+  
+
+}
+
+#showCase h1{
+  position: absolute;
+  top: 30vh;
+  left: 10vh;
+  z-index: 222;
+  color: white;
+  font-weight: bolder;
+  font-size: 27px;
+  font-family: 'Oswald', sans-serif;
+  text-shadow: 0px 25px rgba(0, 102, 0 ,0.2);
+  height: 60px;
+
+  
+}
+#showCase h2{
+  position: absolute;
+  top: 42vh;
+  left: 10vh;
+  z-index: 222;
+  color: white;
+  letter-spacing: 7px;
+  word-spacing: 14px;
+  font-size: 19px;
+  text-shadow: 1px 0 green;
+  font-weight: normal;
+  font-family: 'Montserrat', sans-serif;
+  text-shadow: 0px 25px rgba(0, 102, 0 ,0.3);
+  height: 60px;
+  margin-bottom: px;
+}
+
+
+#icon{
+  position: absolute;
+  top: 48vh;
+  left: 13vh;
+  z-index: 565465;
+  height: 30px;
+  padding: 5px;
+  overflow: hidden;
+ 
+
+
+
+}
+
+#icon ul{
+   display: flex;
+  -direction: column;
+  overflow: hidden;
+}
+.fab{
+  color: white;
+  font-size: 15px;
+  margin: 10px;
+
+}
+
+.fab:hover{
+  color: green
+}
+
+#about{
+  color: #868E96;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font: normal;
+  margin: 5vh;
+  justify-content: space-around;
+  background-color: lightgrey;
+}
+
+
+#about #text{
+  
+  float: left;
+  width: 40vw;
+  margin-left: 20px;
+}
+
+#about h1{
+  color: black;
+  font-weight: bolder;
+  font-family: 'Permanent Marker', cursive;
+  opacity: 0.8;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  
+}
+
+#about img{
+  float: left;
+  width: 30vw;
+ 
+
+}
+
+
+
+#project #main{
+  color: #868E96;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font: normal;
+  margin: 3vw;
+  display: flex;
+  flex-direction: row;
+
+}
+
+#project h1{
+  color: black;
+  font-weight: bolder;
+  font-family: 'Permanent Marker', cursive;
+  opacity: 0.8;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-left: 100px;
+  
+
+}
+
+#project h2{
+  
+  font-size: 15px;
+  margin-left: 10px;
+  padding: 20px;
+}
+
+#project #image{
+   width: 20vw;
+  height: 20vw;
+  overflow: hidden;
+
+
+
+}
+
+#project img{
+  width: 20vw;
+  height: 20vw;
+  margin: 2vw;
+  display: flex;
+  overflow: hidden;
+  opacity: 0.8;
+
+}
+
+#project img:hover{
+   transform: scale(1.1);
+   opacity: 1;
+   }
+
+
+
+#contact{
+  margin:4vh;
+   color: #868E96;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font: normal;
+  margin: 3vw;
+  background-color: lightgrey;
+  margin-top: 200px;
+}
+
+
+#contact #container{
+  margin:vh;
+  margin: 3vw;
+  display: flex;
+
+  background-color: lightgrey;
+}
+#personalDetail{
+  width: 42%;
+}
+
+#contact h1{
+   color: black;
+  font-weight: bolder;
+  font-family: 'Permanent Marker', cursive;
+  opacity: 0.8;
+  margin-bottom: 20px;
+  margin-left: 20px;
+
+}
+#contact #container h1{
+  color: #868E96;
+  opacity: 1;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 28px;
+   font-weight: bolder;
+}
+
+#contact #container h2{
+  color: #868E96;
+  opacity: 1;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 20px;
+   font-weight: normal;
+   margin: 5px;
+
+}
+
+#contact #container h3{
+  color: #E65540;
+  opacity: 1;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 20px;
+   font-weight: bolder;
+   text-decoration: underline;
+
+}
+#contact #message{
+  margin-left: 20vw;
+  width:45vw;
+}
+
+#contact #message input{
+  width:34.5vw;
+  height: 28px;
+  margin: 5px;
+  padding: 5px;
+  
+}
+#contact #message #name , #contact #message #email{
+  width: 16.2vw;
+  margin: 5px;
+}
+
+#contact #message #reset , #contact #message #submit{
+  width: 16.2vw;
+  margin: 5px;
+  height: 35px;
+  color: white;
+  border-radius: 10px;
+  background-color:#E65540;
+  border:none;
+  outline: none; 
+}
+
+#contact #message #reset:hover , #contact #message #submit:hover{
+  color: #E65540;
+  border-radius: 10px;
+  background-color:white;
+  border:1px solid #E65540;
+  transition: 1s;
+  
+}
+
+#footer{
+  background-color: darkgrey;
+  padding: 5vw 30vw;
+  font-size: 10px;
+  color: white;
+
+}
+#footer ul{
+  display: flex;
+  margin:0px auto;
+}
+
+
+#footer .fab{
+  color: #868E96;
+  opacity: 1;
+  z-index: 
+  position:absolute;
+  bottom: 20vw;
+  left: 20vw;
+  text-shadow: 1px 1px green;
+
+}
+
+#footer .fab  a{
+  color: grey;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    #about img {
+      display: none; 
+
+    }
+    #about{
+      margin: 0;
+      justify-content: center;
+    }
+
+
+    #about #text{
+      width: 80vw;
+      justify-content: center;
+      text-align: center;
+      margin: 30px;
+  }
+
+
+
+
+  #nav #logo{
+  margin-left: 10px;
+}
+
+
+  #nav #logo h1{
+    font-size: 30px; 
+    letter-spacing: 3px;
+    word-spacing: 6px;
+    padding: 6px;
+    width: 100vw;
+    
+  }
+
+  #nav #logo h1 span:first-child{
+    font-size: 30px; 
+
+  }
+
+  #nav #logo h1 span:nth-child(2){
+    font-size: 30px; 
+   
+
+  }
+
+  #nav #logo h1 span:nth-child(3){
+    font-size: 30px; 
+
+  }
+  #toggle{
+
+  
+  right: 20px;
+  top: 10px;
+  padding: 3px;
+
+  }
+
+
+  #sideMenu{
+  
+   margin-top: 50px
+  }
+
+
+
+#sideMenu ul{
+ 
+  text-align: center;
+  right: 10vw;
+  width: 90%;
+  opacity: 1
+}
+
+#sideMenu ul li{
+  margin: 40px;
+  border-bottom:1px solid white;
+  width: 80%;
+  height: 40px;
+  padding: 3px;
+  margin-right: 30px;
+  
+  
+}
+
+#sideMenu ul a{
+  
+  opacity: 1;
+  font-size: 25px;
+  font-weight: normal;
+  
+ }
+
+ #showCase {
+  height: 130vW;
+  
+  margin-bottom: 5vw;
+}
+
+#showCase img{
+  height: 130vW;
+ 
+
+}
+
+#showCase .text_1,#showCase .text_2{
+
+  top: 25vh;
+  left: 10vh;
+  
+  
+
+}
+
+#showCase h1{
+  
+  top: 25vh;
+  left: 4vh;
+  font-size: 20px;
+  
+
+  
+}
+#showCase h2{
+  position: absolute;
+  top: 32vh;
+  left: 6vh;
+  
+  letter-spacing: 4px;
+  word-spacing: 8px;
+  font-size: 15px;
+  
+}
+
+
+#icon{
+  position: absolute;
+  top: 40vh;
+  left: 6vh;
+  padding: 4px;
+  
+
+}
+
+
+.fab{
+  
+  font-size: 15px;
+  display: none;
+  color: green;
+  
+
+  }#image{
+    float: left;
+  }
+  #project #main{
+    display: flex;
+    flex-direction: column;
+  
+  
+
+}
+#project{
+  
+  margin: 10vh
+
+}
+
+#project h1{
+  ;
+  margin-bottom: 05px;
+  margin-top: 50px;
+  margin-left: 050px;
+  
+
+}
+
+#project h2{
+  
+  font-size: 18px;
+  margin-left: 10vw;
+  padding: 10px;
+}
+
+#project #image{
+   width: 70vw;
+  height: 70vw;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  float: center;
+
+
+
+}
+
+#project img{
+  width: 50vw;
+  height: 70vw;
+
+
+}
+
+
+
+#contact{
+  margin:4vh;
+  font-size: 15px;
+  margin: 3vw;
+  margin-top: 100px;
+  float: center;
+  width: 100%;
+}
+
+
+#contact #container{
+  
+  margin: 5vw;
+  flex-direction: column;
+  width: 100%;
+
+}
+
+#personalDetail{
+  width: 100%;
+  margin-bottom: 10vw;
+}
+
+#contact h1{
+   
+  margin-bottom: 20px;
+  margin-left: 10vw;
+
+}
+#contact #container h1{
+  
+   font-size: 23px;
+   margin-bottom: -10px
+   
+}
+
+#contact #container h2{
+ 
+   font-size: 18px;
+   margin-left: 10vw;
+
+}
+
+#contact #container h3{
+  font-size: 18px;
+   margin-left: 10vw;
+
+
+}
+
+#contact #message{
+  margin-left: 10vw;
+  width:85vw;
+}
+
+#contact #message input{
+  width:70vw;
+  height: 28px;
+  margin: 5px;
+  padding: 5px;
+  
+}
+#contact #message #name , #contact #message #email{
+  width: 70vw;
+  
+}
+
+#contact #message #reset , #contact #message #submit{
+  width: 30.2vw;
+  margin: 15px;
+  }
+
+}
+
+
+@media only screen and (max-width: 450px){
+
+  h1{
+    font-size: 20px;
+  }
+
+
+  #project h1{
+  ;
+  margin-bottom: 05px;
+  margin-top: 20px;
+  margin-left: 30px;
+  
+
+}
+
+#project h2{
+  
+  font-size: 18px;
+  margin-left: 10vw;
+  padding: 10px;
+}
+
+#project #image{
+   width: 80vw;
+  height: 70vw;
+  
+
+}
+
+#project img{
+  width: 70vw;
+  height: 70vw;
+
+
+}
+
+}
+
+@media only screen and (max-width: 350px){
+
+  #nav #logo{
+  margin-left: 6px;
+  width: 70vw;
+}
+
+
+  #nav #logo h1{
+    font-size: 25px; 
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    padding: 5px;
+    
+    
+  }
+
+  #nav #logo h1 span:first-child{
+    font-size: 25px; 
+
+  }
+
+  #nav #logo h1 span:nth-child(2){
+    font-size: 25px; 
+   
+
+  }
+
+  #nav #logo h1 span:nth-child(3){
+    font-size: 25px; 
+
+  }
+  #toggle{
+
+  
+  right: 20px;
+  top: 8px;
+  padding: 2px;
+
+  }
+
+}
+
+
+
+
+
+@media only screen and (max-width: 1350px){
+
+#contact{
+  margin:4vh;
+  font-size: 15px;
+  margin: 3vw;
+  margin-top: 100px;
+  float: center;
+  width: 100%;
+}
+
+
+#contact #container{
+  
+  margin: 5vw;
+  flex-direction: column;
+  width: 100%;
+
+}
+
+#personalDetail{
+  width: 100%;
+  margin-bottom: 10vw;
+}
+
+#contact h1{
+   
+  margin-bottom: 20px;
+  margin-left: 10vw;
+
+}
+#contact #container h1{
+  
+   font-size: 23px;
+   margin-bottom: -10px
+   
+}
+
+#contact #container h2{
+ 
+   font-size: 18px;
+   margin-left: 10vw;
+
+}
+
+#contact #container h3{
+  font-size: 18px;
+   margin-left: 10vw;
+
+
+}
+
+#contact #message{
+  margin-left: 10vw;
+  width:85vw;
+}
+
+#contact #message input{
+  width:70vw;
+  height: 28px;
+  margin: 5px;
+  padding: 5px;
+  
+}
+#contact #message #name , #contact #message #email{
+  width: 70vw;
+  
+}
+
+#contact #message #reset , #contact #message #submit{
+  width: 30.2vw;
+  margin: 15px;
+  }
+}
+
+
