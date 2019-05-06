@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Typing game</title>
+	<link rel="stylesheet" type="text/css" href="html.css">
+</head>
+<body>
+	<fieldset>
+
+		<header id="heading">
+				<h4> Type the give word within 
+					<span id="seconds" >5</span>seconds.</h4>
+		</header>
+		<div id="differentWord">
+				<H1 id="currentWord"> hello </H1>
+		</div>
+		<div id="textbox"  > 
+
+				<input type="text" id="usertext" placeholder="Start typing..." autofocus>
+		<h4 class="mt-3" id="message"> game over!!!</h4>
+		<h4 class="mt-3" id="message1"> correct!!!</h4>
+
+		</div>
+
+		<div id="time">
+
+				Time Left:<span id="timeValue"> 0 </span>
+			
+		</div>
+		<div id="score"> Score:<span id="scoreValue">0 </span> </div>
+		<br>
+		<button id="button1" class="btn"> Easy</button>
+		<button id="button2" class="btn"> Medium</button>
+		<button id="button3" class="btn"> hard</button>
+		<hr>
+		<footer id="note">
+				<h4> Instrustion</h4>
+				<p>Type each word in the give amount of time to score a point. To play again, just type the current word. Your score wil be reset.</p>
+		</footer>
+	</fieldset>
+
+</body>
+	<script type="text/javascript" src="style1.js"></script>
+
+
+</html>
